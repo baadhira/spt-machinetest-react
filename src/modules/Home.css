@@ -1,0 +1,73 @@
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  z-index:99;
+  margin-top: 45px;
+  width: 280px;
+  position: absolute;
+  border-radius:10px;
+}
+
+.dropdown:empty {
+  border: none;
+}
+
+.dropdown-row {
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
+  padding:0px 20px;
+}
+.dropdown-row:hover{
+  background-color:rgb(196, 196, 196);
+}
+
+input {
+  width: 220px;
+}
+
+.search-inner {
+  display: flex;
+}
+.input-icons i {
+  position: absolute;
+  margin:15px;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  color: green;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-color:grey;
+  border-radius:10px;
+}
