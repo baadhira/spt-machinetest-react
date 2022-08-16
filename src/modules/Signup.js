@@ -48,6 +48,7 @@ export const Signup = () => {
       console.log("data added successfully");
 
       localStorage.setItem("userdata",JSON.stringify([...data,inpval]))
+      navigate('/signin')
     }
 
     }
@@ -62,6 +63,7 @@ export const Signup = () => {
         [name]: value
       }
     })
+   
 
     // console.log(value,name);
   }
