@@ -36,6 +36,9 @@ export const Signup = () => {
         alert("email field is required")
       }else if(!email.includes("@")){
         alert("Please enter valid email")
+      }
+      else if(!email.includes(".")){
+        alert("Please enter valid email")
       }else if(password === ""){
         alert("Please enter valid password")
       }else if(confirmPassword === ""){
