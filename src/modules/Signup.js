@@ -110,12 +110,14 @@ export const Signup = () => {
            />
 
         <Text placeholder="Enter your password"
+        type="password"
                  onChange={getdata}
                  name="password"
          />
 
         <Text placeholder="Confirm your password"
                onChange={getdata}
+               type="password"
                name="confirmPassword"
          />
 

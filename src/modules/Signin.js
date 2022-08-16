@@ -90,11 +90,13 @@ export const Signin = () => {
            placeholder="Enter your Email" type="email"
            onChange={getdata}
            name="email"
+        
         />
 
         <Text
          placeholder="Enter your password"
          onChange={getdata}
+         type="password"
          name="password"
         />
 
